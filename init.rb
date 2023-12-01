@@ -1,12 +1,12 @@
 Redmine::Plugin.register :custom_menu do
   name 'Custom Menu Redmine'
-  author 'Kovalevskiy Vasil, Danil Kukhlevskiy'
+  author 'Chernyaev Alexandr by Kovalevskiy Vasil, Danil Kukhlevskiy'
   description 'This is a plugin for Redmine changable top menu'
-  version '1.8.8'
-  url 'http://rmplus.pro/redmine/plugins/custom_menu'
+  version '1.9.0'
+  url 'https://github.com/koren85/custom_menu'
   author_url 'http://rmplus.pro/'
 
-  requires_redmine '4.0.0'
+  requires_redmine '4.1.0'
 
   settings partial: 'settings/custom_menu',
            default: {}
