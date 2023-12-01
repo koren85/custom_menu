@@ -2,6 +2,10 @@
 
 #### Plugin for Redmine
 
+Forked from original plugin.
+
+Tested from Redmine 4.1
+
 Plugin that greatly improves usablity of Redmine.
 It implements a lof of things that made Redmine interface user-friendly.
 
@@ -13,6 +17,8 @@ Another plugins of our team you can see on site http://rmplus.pro
 
 
 Changelog:
+  1.9.0
+    * Fixed: Adapted to Redmine 4.1
   1.8.8
     * Fixed: conflict Rails 5.2.4
     * Fixed: visibility of parent item
